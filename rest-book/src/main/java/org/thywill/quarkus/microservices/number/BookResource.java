@@ -29,7 +29,7 @@ public class BookResource {
             @FormParam("yearOfPublication") int yearOfPublication,
             @FormParam("genre") String genre) {
     Book book = new Book();
-    book.isbn13 = "To be implemented";
+    book.isbn13 = "13- To be implemented";
     book.title = title;
     book.author = author;
     book.yearOfPublication = yearOfPublication;
